@@ -45,3 +45,11 @@ BUILD_FINGERPRINT := Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:u
 
 # Use Jelly
 TARGET_USE_JELLY := true
+
+# Build with GApps if GAPPS_BUILD is true
+ifeq ($(GAPPS_BUILD),true)
+    WITH_GAPPS := true
+    TARGET_GAPPS_ARCH := arm64
+    IS_PHONE := true
+    TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+endif
