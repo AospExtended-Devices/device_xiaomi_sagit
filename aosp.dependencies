@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "xiaomi-msm8998/device_xiaomi_msm8998-common",
+    "target_path": "device/xiaomi/msm8998-common",
+    "branch": "lineage-17.0"
+  },
+  {
+    "remote": "github",
+    "repository": "xiaomi-msm8998/kernel_xiaomi_msm8998",
+    "target_path": "kernel/xiaomi/msm8998",
+    "branch": "staging/lineage-17.0"
+  },
+  {
+    "remote": "github",
+    "repository": "xiaomi-msm8998/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "lineage-17.0"
+  }
+]
